@@ -127,14 +127,14 @@
 #192.168.1.119		
 192.168.1.120	owlbear	
 192.168.1.121	pve	proxmox
-192.168.1.122	virtual-machine	win2012
-192.168.1.123	virtual-machine	opencim
-#192.168.1.124	virtual-machine	
-#192.168.1.125	virtual-machine	
-#192.168.1.126	virtual-machine	
-#192.168.1.127	virtual-machine	
-#192.168.1.128	virtual-machine	
-#192.168.1.129	virtual-machine	
+192.168.1.122	win2012 #virtual-machine
+192.168.1.123	opendcim #virtual-machine
+#192.168.1.124	#virtual-machine	
+#192.168.1.125	#virtual-machine	
+#192.168.1.126	#virtual-machine	
+#192.168.1.127	#virtual-machine	
+#192.168.1.128	#virtual-machine	
+#192.168.1.129	#virtual-machine	
 192.168.1.130	freenas	
 #192.168.1.131		
 #192.168.1.132		
