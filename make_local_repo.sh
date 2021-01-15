@@ -1,5 +1,5 @@
 # script to copy the dvd to a local repo
-# assumes dvd is mount and device is /dev/sr0
+# assumes dvd is mounted and device is /dev/sr0
 
 # make required folder
 mkdir -p /mnt/tmp
@@ -16,9 +16,9 @@ umount /mnt/tmp
 
 # create local repo file
 echo "[local-dvd-repo]" > /etc/yum.repos.d/local.repo
-echo "name=Local copy of DVD" > /etc/yum.repos.d/local.repo
-echo "gpgcheck=0" > /etc/yum.repos.d/local.repo
-echo "baseurl=file:///mnt/dvd" > /etc/yum.repos.d/local.repo
+echo "name=Local copy of DVD" >> /etc/yum.repos.d/local.repo
+echo "gpgcheck=0" >> /etc/yum.repos.d/local.repo
+echo "baseurl=file:///mnt/dvd" >> /etc/yum.repos.d/local.repo
 
 # check repolist is working
 yum repolist
