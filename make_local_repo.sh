@@ -9,7 +9,7 @@ mkdir -p /mnt/dvd
 mount /dev/sr0 /mnt/tmp
 
 # copy contents (need to check this)
-cp -r /mnt/tmp/* /mnt/dvd
+cp -rv /mnt/tmp/* /mnt/dvd
 
 # umount DVD
 umount /mnt/tmp
