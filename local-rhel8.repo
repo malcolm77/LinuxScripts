@@ -1,0 +1,9 @@
+[local-dvd-apprepo]
+name=Local app repo
+gpgcheck=0
+baseurl=file:///mnt/dvd/AppStream
+
+[local-dvd-baserepo]
+name=Local base repo
+gpgcheck=0
+baseurl=file:///mnt/dvd/BaseOS
