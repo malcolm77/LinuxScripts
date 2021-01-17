@@ -1,25 +1,41 @@
-
-A collection of scripts i seem to use a lot in linux systems</br>
-hello???
-To pull this repo
+To pull this repo</br>
 <pre>
 git init
 git remote add origin https://github.com/malcolm77/LinuxScripts.git
 git pull origin master
+Other git command
 </pre>
-Other git command</br>
+
+To setup git on new server</br>
+
+1) install
 <pre>
-# get the upstream branch, so you just use 'git pull'
-git branch --set-upstream-to=origin/master master
+yum install git
+or
+yum install <path-to-rpm>
+or
+apt-get install git
+</pre>
 
-# 'enable' saving of credentials, next time you are prompted they will be saved
-git config --global credential.helper store
-
-# configure email and name
+2) initialization</br>
+<pre>
+git init
+git remote add origin https://github.com/malcolm77/LinuxScripts.git
 git config --global user.email "malcolmchalmers@hotmail.com"
 git config --global user.name "Malcolm Chalmers"
+git config --global credential.helper store
+</pre>
 
-</pre
+3) pull repo</br>
+<pre>
+git pull origin master
+git branch --set-upstream-to=origin/master master
+</pre>
 
-this is a test
-
+4) update</br>
+<pre>
+after making changes.....
+git add <file-that-was-changed-or-added>
+git commit -m "updated"
+git push
+</pre>
