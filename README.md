@@ -3,7 +3,6 @@ To pull this repo</br>
 git init
 git remote add origin https://github.com/malcolm77/LinuxScripts.git
 git pull origin master
-Other git command
 </pre>
 
 To setup git on new server</br>
