@@ -127,7 +127,7 @@
 #192.168.1.119		
 192.168.1.120	owlbear	
 192.168.1.121	pve	proxmox
-192.168.1.122	win2012 #virtual-machine
+192.168.1.122	server01 #virtual-machine
 192.168.1.123	opendcim #virtual-machine
 #192.168.1.124	oracle1 #virtual-machine	
 #192.168.1.125	#virtual-machine	
