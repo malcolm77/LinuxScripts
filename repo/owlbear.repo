@@ -1,0 +1,11 @@
+[OwlbearBaseOSRepo]
+name=Base OS Repo on Owlbear
+baseurl=http://192.168.1.120/rhel-8-for-x86_64-baseos-rpms
+enabled=1
+gpgcheck=0
+
+[OwlbearAppsRepo]
+name=Apps Repo on Owlbear
+baseurl=http://192.168.1.120/rhel-8-for-x86_64-appstream-rpms
+enabled=1
+gpgcheck=0
