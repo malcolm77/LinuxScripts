@@ -1,7 +1,9 @@
+<h2> A copy of everything under /root on owlbear.</h2>
+
 To pull this repo</br>
 <pre>
 git init
-git remote add origin https://github.com/malcolm77/LinuxScripts.git
+git remote add origin git@github.com:malcolm77/LinuxScripts.git
 git pull origin master
 </pre>
 
@@ -19,9 +21,7 @@ apt-get install git
 2) initialization</br>
 <pre>
 git init
-git remote add origin https://github.com/malcolm77/LinuxScripts.git
-git config --global user.email "malcolmchalmers@hotmail.com"
-git config --global user.name "Malcolm Chalmers"
+git remote add origin git@github.com:malcolm77/LinuxScripts.git
 git config --global credential.helper store
 </pre>
 
