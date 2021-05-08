@@ -1,4 +1,5 @@
-<h2> A copy of everything under /root on owlbear.</h2>
+<h2> A copy of everything under /home/malcolm/github/LinuxScripts on owlbear.</h2>
+<p>I use this as a 'backup' of the scripts and config files that i create</p>
 
 To pull this repo</br>
 <pre>
