@@ -1,5 +1,9 @@
 <h2> A copy of everything under /home/malcolm/github/LinuxScripts on owlbear.</h2>
-<p>I use this as a 'backup' of the scripts and config files that i create</p>
+<p>
+I use this as a 'backup' of the scripts and config files that i create.<br>
+Where ever I create them, i have to copy them to /home/malcolm/github/LinuxScripts to put them here.<br>
+This might also discourage me from using the root account so much.
+</p>
 
 To pull this repo</br>
 <pre>
