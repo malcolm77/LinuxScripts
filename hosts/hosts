@@ -128,7 +128,7 @@
 192.168.1.120	owlbear	
 192.168.1.121	pve	proxmox
 192.168.1.122	bugbear
-#192.168.1.123	grog     #virtual-machine
+192.168.1.123	kube
 #192.168.1.124	oracle1  #virtual-machine	
 #192.168.1.125 keyleth  #virtual-machine	
 #192.168.1.126 #virtual-machine	
