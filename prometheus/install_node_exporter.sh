@@ -17,5 +17,5 @@ useradd node_exporter
 chown node_exporter:node_exporter /usr/local/bin/node_exporter
 
 # Start and check status
-systemctl start node_exporter.service
+systemctl enable --now node_exporter.service
 systemctl status node_exporter.service
