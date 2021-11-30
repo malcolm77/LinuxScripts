@@ -1,6 +1,7 @@
 127.0.0.1     localhost
 192.168.1.1   nbnrouter	router
 192.168.1.10  TVPC
+192.168.1.11  macbookair
 192.168.1.100 truenas
 192.168.1.101 pbs
 192.168.1.105 boggle
