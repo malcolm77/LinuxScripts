@@ -8,9 +8,9 @@
 192.168.1.103 archmage
 192.168.1.104 necromancer
 192.168.1.105 boggle
-192.168.1.106 goblin
-192.168.1.107 satyr
-192.168.1.109 chuul
+192.168.1.106 master-node
+192.168.1.107 node1 worker-node-1
+192.168.1.108 node2 worker-node-2
 192.168.1.110 kobold
 192.168.1.114 rpi3
 192.168.1.115 pizero
